@@ -28,7 +28,7 @@ class CarManager:
 
     def check_collision(self, player):
         for car in self.all_cars:
-            if car.distance(player) < 20:  # Collision threshold
+            if car.distance(player) < 27:  # Collision threshold
                 return True
         return False
 
